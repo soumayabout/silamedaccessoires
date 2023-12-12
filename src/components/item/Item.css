@@ -1,0 +1,40 @@
+.section_item {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 40px;
+}
+
+.section_item img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.section_item p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.item-prices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-new {
+  color: #e44d26;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.price-old {
+  color: #777;
+  font-size: 16px;
+  text-decoration: line-through;
+}

@@ -1,0 +1,12 @@
+.shopdetail {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+  margin: 20px;
+}
+
+.shopdetail img {
+  width: 15px;
+  margin: 0 10px;
+}

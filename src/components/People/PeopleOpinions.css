@@ -1,0 +1,50 @@
+.PeopleOpinions {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+hr {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
+
+.profile {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile img {
+  width: 60%;
+  border-radius: 50%;
+}
+
+h1, h2 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.icons8-star img {
+  width: 20px;
+}
+
+p {
+  font-size: 14px;
+  color: #555;
+}
+
+.PeopleOpinions:hover .profile {
+  transform: translateX(-20px);
+}
+
